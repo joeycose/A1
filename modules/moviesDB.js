@@ -86,7 +86,7 @@ module.exports = class MoviesDB {
   getMovieById(id) {
     return this.Movie.findOne({ _id: id }).exec();
   }
-
+ 
   updateMovieById(data, id) {
     return this.Movie.updateOne({ _id: id }, { $set: data }).exec();
   }
