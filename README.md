@@ -1,4 +1,4 @@
-# Functional API that is connected to a Database in Mongo.db. This Database contains records of Movies with several properties within. 
+# Functional API that is connected to a Database in Mongo.db. This Database contains records of Movies with properties. 
 
 Tech-Stack : Mongo.DB / Express.js / Node.js
 
